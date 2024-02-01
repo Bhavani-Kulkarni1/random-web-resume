@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.my-5 img {
+  height: 150px;
+}
+body{
+     background-image: url(https://img.freepik.com/free-vector/geometric-background_53876-115958.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#me{
+    height: 300px !important;
+    width: 300px !important;
+
+}

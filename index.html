@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Web Resume</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Name</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <!-- Me  -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img id="me" src="https://2.bp.blogspot.com/-vLKTyliGGbU/WYw0aZZpjqI/AAAAAAAAIww/56hDjfy_0akeDJczLSiX7OsUksGzzwJsQCEwYBhgL/s1600/shutterstock_155754371.jpg"
+                    class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I am passionate Software Developer</h1>
+                <p class="lead">I bring a keen eye for detail and a passion for crafting user-friendly and responsive
+                    websites. With a commitment to clean and efficient code, I enjoy tackling challenges and
+                    contributing to innovative projects.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Skills -->
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Projects</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://www.itarian.com/assets-new/images/project-management.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">My Project-1</h3>
+            
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://cdn-icons-png.flaticon.com/512/2683/2683397.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">My Project-2</h3>
+                
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://cdn-icons-png.flaticon.com/512/1087/1087815.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">My Project-3</h3>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    <!-- contact -->
+      <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use> <img src="https://i.pinimg.com/originals/fc/27/fb/fc27fb81e77cc56ba4ed981d7801ceb9.png" alt=""></svg>
+          <h1 class="text-body-emphasis">Contact Me</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            I'm just a message away! Feel free to reach out if you have any questions, collaboration ideas, or just want to connect. I'm excited to hear from you and explore potential opportunities together. Drop me a message, and let's start a conversation!
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+              Connect with Me
+              <svg class="bi ms-2" width="0" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+            </button>
+           
+          </div>
+        </div>
+      </div>
+    
+      </div>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 1000, 'swing', function () {
+                    window.location.hash = target;
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
